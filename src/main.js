@@ -1,5 +1,6 @@
 import Vue from 'vue'
 
+import '@/scss/main.scss'
 import store from '@/config/store'
 import router from '@/config/router'
 import '@/config/axios'
