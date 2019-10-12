@@ -11,6 +11,9 @@ export default {
     return {
 
     }
+  },
+  beforeMount () {
+    // xhr.open('GET', `https://aplusprice.xyz/aprice/sys/pay/getOpenId?code=${code}`)
   }
 }
 </script>
