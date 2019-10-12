@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import login from '@/views/login.vue'
-import index from '@/views/index.vue'
+const login = () => import('@/views/login.vue')
+const index = () => import('@/views/index.vue')
+
 Vue.use(Router)
 export default new Router({
   routes: [{
